@@ -3,7 +3,7 @@ var mfs = require('../mahjongFunctionSet.js');
 
 function main(){
   var myFile = fs.openSync('mahjongTestFile.txt','w');
-  for(var j=0;j<100;j++){
+  for(var j=0;j<200;j++){
     var hand = []; 
     for(var i=0;i<14;i++){
       var a = parseInt(Math.random()*27);
